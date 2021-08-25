@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, serif;
+}
+
+.picture {
+
+    background-image: url("https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/JavaScript-code.jpg?itok=1Wia7hH0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 100px 40px 100px;
+    height: 500px;
+    color: white;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    border: solid 1px gray;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+    color: gray;
+    background-color: #333;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+.application {
+    background-color: #eaeaea;
+    padding: 20px 100px 40px 100px;
+}
+
+.application-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+}
+
+
+.cards-grid {
+    background-color: #333;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    padding: 40px 100px 40px 100px;
+}
+
+.cards-padding {
+    padding: 20px;
+}
+
+.card {
+    background-color: #eaeaea;
+}
+
+img {
+    width: 100%;
+}
+.center {
+    text-align: center;
+}
+
+.we {
+    padding: 40px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.contact {
+    padding: 30px;
+    background-color: #2690d4;
+
+}
+
+.about {
+    padding: 30px;
+    background-color: #333;
+
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
